@@ -25,25 +25,33 @@ After carefully looking through all the data, there was unusual outliers with Th
 
 ![school_district_all.png](Resources/school_district_all.png)
 
-As you can see from the district summary image, the overall passing % for Thomas High School is significantly lower than the other charter schools, dispite the average and % scores being much higer.
+As you can see from the district summary image, the passing % for Thomas High School is significantly lower than the other charter schools, while maintaining higher averages. From this given information, it would prompt us to look further into this schools information.
 
 ## School Summary
 
 ![THS_9th_removed.png](Resources/THS_9th_removed.png)
 
-After removing the 9th grade scores from Thomas High School, the students scores finally leveled out. From here, we can begin to see other changes that these adjustments have also affected, such as:
+We were tasked to remove the 9th grade scores from Thomas High School, as directed from the school board. After removing the 9th grade scores from Thomas High School, the students scores finally leveled out. From here, we can begin to see other changes that these adjustments have also affected, such as:
+
+* **High and Low performing schools**
+![highandlow.png](Resources/highandlow.png)
+Thomas High School is now showing up in the top 5 of the performing schools. This is a significant change from before the NaN change.
 
 * **Math and reading scores by grade**
 ![scores_by_grade.png](Resources/scores_by_grade.png)
+Without looking at the 9th grade score for Thomas High School, you can see the rest of the scores tend to be very similar to other charter schools. This is more proof of the unusual activity with that 9th grade score.
 
 * **Scores by school spending**
 ![school_spending.png](Resources/school_spending.png)
+From this dataframe, it would seem that the schools with a smaller spending range per student tend to score higher.
 
 * **Scores by school size**
 ![school_size.png](Resources/school_size.png)
+In these 3 catagories, its clear that the large schools have a significantly lower passing average compaired to small/medium schools.
 
 * **Scores by school type**
 ![school_type.png](Resources/school_type.png)
+Out of the 2 types of schools, Charter schools are better in every catagory of education data provided.
 
 # Summary: 
 
@@ -53,5 +61,5 @@ With all the new dataframes layed out, we can come to 4 major points of this ana
 3. Large schools have the lowest Overall Passing % when compared to small/medium schools
 4. Charter schools score higher in reading, math, and overall passing %
 
-If it wasn't for the other schools data, the Thomas High Schools 9th grade class data could have gone unnoticed. By calculating all the school district test data, we were able to provide a detailed analysis for the school board to move forward with an investigation.
+If it wasn't for the other schools data, the Thomas High Schools 9th grade class data might have gone unnoticed. By calculating all the school district test data, we were able to provide a detailed analysis for the school board to move forward with an investigation.
 
