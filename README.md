@@ -1,4 +1,4 @@
-# School_District_Analysis
+# School District Analysis
 
 ## Project Overview:
 The school board wants to put together a school district analysis to help find any anomalies in the school data. With our knowledge of Python and the data provided, we were able to efficiently find some useful information. To start, we have to:
