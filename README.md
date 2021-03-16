@@ -11,6 +11,7 @@ The school board wants to put together a school district analysis to help find a
     * High and Low Performing Schools
     * Math and Reading Scores by
         * Grade
+        * School Spending
         * School Size
         * School Type
 6. State conclusion based on information provided
