@@ -21,7 +21,7 @@ The school board wants to put together a school district analysis to help find a
 * Software: Python 3.8.3, Jupyter Lab, Visual Studio Code 1.46.0
 
 # Results: 
-After carefully looking through all the data, there was unusual outliers with Thomas High School. It was the only charter school that was failing, and by a large margin. We decided to later remove the seemingly skewed 9th grades test scores to come to some interesting conclusions:
+After carefully looking through all the data, there was unusual outliers with Thomas High School. It was the only charter school that was significantly lower by a large margin. We decided to later remove the seemingly skewed 9th grades test scores to come to some interesting conclusions:
 ## District Summary:
 
 ![school_district_all.png](Resources/school_district_all.png)
